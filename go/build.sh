@@ -1,0 +1,1 @@
+go build --ldflags "-extldflags '-L/usr/local/lib -ltdjson_static -ltdjson_private -ltdclient -ltdcore -ltdactor -ltddb -ltdsqlite -ltdnet -ltdutils -ldl -lm -lstdc++ -lz -L/usr/lib -lssl -lcrypto'" btools.go auth.go chats.go msgs.go
