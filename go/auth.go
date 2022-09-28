@@ -22,8 +22,8 @@ func getClient() *tdlib.Client {
 		UseFileDatabase:     true,
 		UseChatInfoDatabase: true,
 		UseTestDataCenter:   false,
-		DatabaseDirectory:   "./tdlib-db",
-		FileDirectory:       "./tdlib-files",
+		DatabaseDirectory:   "/tmp/tdlib-db",
+		FileDirectory:       "/tmp/tdlib-files",
 		IgnoreFileNames:     false,
 	})
 
